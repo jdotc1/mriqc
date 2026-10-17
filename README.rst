@@ -1,3 +1,13 @@
+**Image-quality metrics and reports for MRI studies**
+
+This is a development fork of `MRIQC <https://github.com/nipreps/mriqc>`__, a NiPreps tool for MRI quality assessment. Upstream extracts image-quality metrics from structural, functional, and diffusion MRI and provides visual reports, helping researchers organize quality review across imaging datasets. It follows BIDS and the BIDS-App conventions described in the original README.
+
+**Contribution to review:** `PR #1451 <https://github.com/nipreps/mriqc/pull/1451>`__ proposes redacting NITRC credentials from download failures. The work focuses on diagnostic output during data retrieval; the pull request contains the proposed implementation and review status.
+
+Use the `official documentation <https://mriqc.readthedocs.io/>`__ for installation, supported inputs, and report interpretation. Upstream scientific references, acknowledgments, and licensing remain below. The `branch comparison <https://github.com/nipreps/mriqc/compare/master...jdotc1:master>`__ shows the default branch's relationship to the original project.
+
+----
+
 mriqc: image quality metrics for quality assessment of MRI
 ==========================================================
 
